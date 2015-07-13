@@ -1,0 +1,31 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+	It saves lots of time and efforts without going thru files line by line when files are big. 
+  	It is also reliable to let machine to do it.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?        
+	The history can allow us to go back any workikng versions when new versions have bugs. Therefore, 
+	we don't need to spend/waste time to get it back to working condition.
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+How can you use the commands git log and git diff to view the history of files?
+
+How might using version control make you more confident to make changes that could break something?
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+git init
+git status
+git log -- stat
+git diff
+git config --global color.ui auto
+git config --global core.editor "C:/Program\ Files/Sublime\ Text\ 2/sublime_text.exe -n -w"
+git config --global push.default upstream
+git config --global merge.conflictstyle diff3
+https://github.com/udacity/pappu-pakia.git
+
+
